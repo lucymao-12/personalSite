@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
       <Navbar bg="light" expand="xl" style={{padding: '20px'}}>
-        <Navbar.Brand href="/" className="name">Lucy Mao</Navbar.Brand>
+        <Navbar.Brand href="/" className="name" style={{fontSize: "3rem"}}>Lucy Mao</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="w-100 justify-content-around" style={{paddingLeft: '10px'}}>

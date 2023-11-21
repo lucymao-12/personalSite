@@ -5,7 +5,6 @@
   font-size: 10px;
 }
 .name{
-    font-size: 3rem;
     font-family: "Rubik";
 }
 
@@ -111,7 +110,11 @@
   font-family: "Rubik";
 }
 
-
+.row>* {
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: 0;
+}
 .about-pic {
   position: relative; /* This is crucial */
   display: inline-block; /* Or 'block', depending on layout */
@@ -135,6 +138,7 @@
   background: linear-gradient(to right, transparent, #d8e3e1 90%); /* Adjust the 80% as needed */
   pointer-events: none;
 }
+
 .img-fluid {
   width: 100%; /* Full width */
   height: auto; /* Maintain aspect ratio */
@@ -148,9 +152,4 @@
     min-width: 100%; /* Ensure it spans at least the full width of its container */
     object-fit: cover; /* Cover the area, allowing the image to be cropped */
   }
-}
-.row>* {
-  padding-right: 0;
-  padding-left: 0;
-  margin-top: 0;
 }
