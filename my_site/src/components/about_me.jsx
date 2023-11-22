@@ -10,7 +10,7 @@ function Info() {
     setIsReadMore(!isReadMore);
   };
   return (
-    <Container id="about" className="justify-content-center" style={{paddingTop: "5rem"}}>
+    <Container id="about" className="justify-content-center" style={{paddingTop: "5rem", paddingBottom: "5rem"}}>
       <Col className="text-container">
         {isReadMore ? (
           <p className="about" style={{ textAlign: "justify" }}>

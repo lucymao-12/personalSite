@@ -12,6 +12,7 @@ const Header = () => {
           <Nav className="w-100 justify-content-around" style={{paddingLeft: '10px'}}>
             <a href="#home" className="link-no-style">Home</a>
             <a href="#about" className="link-no-style">About</a>
+            <a href="#projects" className="link-no-style">Projects</a>
             <a href="#contact" className="link-no-style">Contact</a>
           </Nav>
         </Navbar.Collapse>

@@ -153,3 +153,27 @@
     object-fit: cover; /* Cover the area, allowing the image to be cropped */
   }
 }
+.project-title{
+  font-size: 2rem;
+  font-family: "Rubik";
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+  padding: 3rem;
+}
+.project-title>a{
+  font-size: 2rem;
+  font-family: "Rubik";
+  font-weight: bold;
+  color: inherit;
+  text-decoration: none;
+}
+.project-desc{
+  font-size: 1.5rem;
+  font-family: "Rubik";
+  font-weight: normal;
+}
+.projects{
+  padding: 2rem;
+  background-color: #d8e3e1;
+}
