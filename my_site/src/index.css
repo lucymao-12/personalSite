@@ -4,7 +4,7 @@
   }
   
 .link-no-style:hover {
-text-shadow: 0 0 1px currentColor;
+font-weight: bold;
 }
 .about-container{
     margin-top: 20px;
