@@ -1,89 +1,47 @@
 import React from "react";
-import { Navbar, Nav } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col } from "react-bootstrap";
-import { useState } from "react";
-function AboutMe() {
-  const [isReadMore, setIsReadMore] = useState(true);
-
-  const toggleReadMore = () => {
-    setIsReadMore(!isReadMore);
-  };
+import "@fontsource/rubik";
+import Collage from "./collage";
+import img from "../images/IMG_3772.JPG";
+function Home() {
   return (
-    <Container fluid className="about-container">
-      <Row>
-        <Col className="image-container">
-          <img
-            src="https://picsum.photos/200/300"
-            alt="Lucy Mao"
-            className="about-image"
-          />
+    <Container id="home" fluid className="outer-container flex-nowrap" >
+      <Row className="justify-content-center align-items-center">
+        {/*<Col><Collage/></Col>*/}
+        <Col className="about-pic" style={{ height: '100vh', position: 'relative' }}>
+          <img src={img} alt="parking lot" className="img-fluid"></img>
         </Col>
-        <Col className="text-container">
-          <p style={{ textAlign: "justify" }}>
-            There is something to say about the human experience...
+        <Col style={{paddingRight: "5rem"}}className="text-container text-center">
+          <h1 className="greeting">There's plenty to still learn</h1>
+          <p className="intro">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            quis lacus nec urna accumsan feugiat. Nam pharetra tempus dui, at
+            convallis arcu tincidunt id. Sed euismod velit erat, nec suscipit
+            ligula fermentum vel. Donec auctor, sem nec maximus aliquam, nibh
+            nisl tempor ipsum, vel aliquam leo tortor non sem. Vestibulum sed
+            posuere lectus. Morbi a lectus turpis. Fusce lobortis enim eget
+            tincidunt suscipit. Cras venenatis sed augue nec iaculis. Quisque
+            fermentum est eros, sed tristique velit gravida eu. Vestibulum ante
+            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
+            curae; Suspendisse potenti. Morbi cursus diam eros, et pharetra
+            turpis eleifend ac. Quisque non lorem ac ligula laoreet pulvinar nec
+            quis leo. Nulla tempus velit sed mollis ornare. Nullam accumsan
+            mollis lacus, ut consequat nisi vulputate a. Donec porttitor varius
+            tellus eget faucibus. Sed ac tincidunt ante. Maecenas cursus enim a
+            nibh mattis porta. Cras arcu urna, cursus vel consectetur in,
+            fringilla vel purus. Aliquam sagittis vitae ante non pharetra.
+            Mauris viverra maximus orci, quis placerat nisl varius in. Fusce
+            vitae sapien vel risus pellentesque commodo. Pellentesque ornare et
+            quam vitae tincidunt. Curabitur imperdiet, felis a scelerisque
+            luctus, neque ipsum porta augue, eu commodo lectus orci sit amet
+            nunc. Vivamus non velit non orci ullamcorper tristique ac nec felis.
+            Aliquam molestie nisi id felis blandit lobortis.
           </p>
-
-          {isReadMore ? (
-            <p style={{ textAlign: "justify" }}>
-              Here is who I am and yet it is nothing at all, you will know what
-              I want you to know. And you will know nothing more.
-              <br /> My name is Lucy Mao.
-              <br /> I am a student majoring in computer science and minoring in
-              cognitive science at McGill university. I have no siblings and I
-              am a first generation immigrant, both my parents are from China,
-              and as far as I can tell, every one of my known ancestors are as
-              well.
-              <br /> I have a cat and a dog, the dog is a family pet, I've have
-              him since I was 13, and the cat is my own, I got him when I was
-              20, living alone. When I got my dog, cookie, I didn't know how to
-              take of myself, let alone an animal; he is not well trained, but
-              he has absorbed the love of a family that only knew how to give it
-              through action. I think that's why he loves the way he does,
-              without the verbal component, without the generational, cultural
-              discnonnect all he knows is our purest form of love.
-              <br /> Tofu, my cat (I'm sure you can see a trend in the names at
-              this point) met me at a time where I learned from people...
-              <span
-                onClick={toggleReadMore}
-                style={{ fontWeight: "bold", cursor: "pointer" }}
-              >
-                Read more
-              </span>
-            </p>
-          ) : (
-            <p style={{ textAlign: "justify" }}>
-              Here is who I am and yet it is nothing at all, you will know what
-              I want you to know. And you will know nothing more.
-              <br /> My name is Lucy Mao.
-              <br /> I am a student majoring in computer science and minoring in
-              cognitive science at McGill university. I have no siblings and I
-              am a first generation immigrant, both my parents are from China,
-              and as far as I can tell, every one of my known ancestors are as
-              well.
-              <br /> I have a cat and a dog, the dog is a family pet, I've have
-              him since I was 13, and the cat is my own, I got him when I was
-              20, living alone. When I got my dog, cookie, I didn't know how to
-              take of myself, let alone an animal; he is not well trained, but
-              he has absorbed the love of a family that only knew how to give it
-              through action. I think that's why he loves the way he does,
-              without the verbal component, without the generational, cultural
-              discnonnect all he knows is our purest form of love.
-              <br /> Tofu, my cat (I'm sure you can see a trend in the names at
-              this point) met me at a time where I learned from people
-              <br />
-              <span
-                onClick={toggleReadMore}
-                style={{ fontWeight: "bold", cursor: "pointer" }}
-              >
-                Read less
-              </span>
-            </p>
-          )}
         </Col>
       </Row>
     </Container>
   );
 }
 
-export default AboutMe;
+export default Home;
