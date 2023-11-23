@@ -6,7 +6,16 @@ import bert from "../images/bert_metrics.png";
 import { Container, Row, Col } from "react-bootstrap";
 function Projects() {
   return (
-    <div className="projects" id="projects">
+    <div
+      className="projects"
+      id="projects"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+    >
       <h1>Projects</h1>
       <p className="project-desc">
         Here are some of my projects! Most of these are from school, but I have
@@ -15,8 +24,16 @@ function Projects() {
       </p>
       <hr></hr>
 
-      <ul>
-        <li className="project-title">
+      <ul
+        style={{
+          maxWidth: "70%",
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        <li className="project-title no-bullet">
           Choose your own adventure multipage web app
           <p className="project-desc">
             This was made with node.js, express, mongodb backend. React, html,
@@ -33,7 +50,7 @@ function Projects() {
             alt="choose your own adventure web app"
           ></ProjectImage>
         </li>
-        <li className="project-title">
+        <li className="project-title no-bullet">
           <a href="https://colab.research.google.com/drive/1RmcNu-exn3mOe2kzZppeVq2_gExZwCEJ?usp=sharing">
             Bert and Naive Bayes Exploration for NLP
           </a>
@@ -44,9 +61,9 @@ function Projects() {
             and compared the difference between a deep learning model and a
             traditional machine learning model.
           </p>
-          <Container fluid className="outer-container flex-nowrap">
+          <Container fluid className="outer-container flex-nowrap" style={{backgroundColor: "white"}}>
             <Row className="justify-content-center align-items-center">
-              <Col md={6} className="text-center">
+              <Col md={6} className="text-center" style={{marginLeft: "0.5rem"}}>
                 <ProjectImage
                   src={naive}
                   alt="choose your own adventure web app"
@@ -61,7 +78,7 @@ function Projects() {
             </Row>
           </Container>
         </li>
-        <li className="project-title">SOME STUFF HERE IDK</li>
+        <li className="project-title no-bullet">SOME STUFF HERE IDK</li>
       </ul>
     </div>
   );

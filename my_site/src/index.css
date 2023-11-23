@@ -160,6 +160,10 @@
   color: inherit;
   text-decoration: none;
   padding: 3rem;
+  margin: 3rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 .project-title>a{
   font-size: 2rem;
@@ -167,6 +171,7 @@
   font-weight: bold;
   color: inherit;
   text-decoration: none;
+  
 }
 .project-desc{
   font-size: 1.5rem;
@@ -176,4 +181,20 @@
 .projects{
   padding: 2rem;
   background-color: #d8e3e1;
+}
+.contact-container{
+  padding: 3rem;
+  min-height: 15rem;
+  background-color: "white";
+}
+.link{
+  font-size: 1.5rem;
+  font-family: "Rubik";
+  font-weight: normal;
+  color: inherit;
+  text-decoration: none;
+  margin-top: 2rem;
+}
+.no-bullet{
+  list-style-type: none;
 }
