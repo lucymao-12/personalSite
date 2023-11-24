@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/lucymao-12/personalSite/static/css/main.5eb4ad3b.css",
-    "main.js": "/lucymao-12/personalSite/static/js/main.ba6150fe.js",
-    "static/media/IMG_3772.JPG": "/lucymao-12/personalSite/static/media/IMG_3772.59f4c447ddd4e6b66c11.JPG",
-    "static/media/cya.png": "/lucymao-12/personalSite/static/media/cya.0a7e75d7add4d63498fc.png",
-    "static/media/rubik-latin-400-normal.woff": "/lucymao-12/personalSite/static/media/rubik-latin-400-normal.bca4b94f17366659cc98.woff",
-    "static/media/nb_metrics.png": "/lucymao-12/personalSite/static/media/nb_metrics.4c13ce4b562fff655d4b.png",
-    "static/media/bert_metrics.png": "/lucymao-12/personalSite/static/media/bert_metrics.05c0564b949c291ec99d.png",
-    "static/media/rubik-latin-400-normal.woff2": "/lucymao-12/personalSite/static/media/rubik-latin-400-normal.86197d6f93b1eea220d0.woff2",
-    "static/media/rubik-latin-ext-400-normal.woff": "/lucymao-12/personalSite/static/media/rubik-latin-ext-400-normal.63437145a08a57c69aa0.woff",
-    "static/media/rubik-cyrillic-400-normal.woff": "/lucymao-12/personalSite/static/media/rubik-cyrillic-400-normal.7f3c6afc263bfde37ffb.woff",
-    "static/media/rubik-latin-ext-400-normal.woff2": "/lucymao-12/personalSite/static/media/rubik-latin-ext-400-normal.1197cc14a7e4e177a737.woff2",
-    "static/media/rubik-cyrillic-ext-400-normal.woff": "/lucymao-12/personalSite/static/media/rubik-cyrillic-ext-400-normal.dc856d8142b03a0d25b2.woff",
-    "static/media/rubik-cyrillic-400-normal.woff2": "/lucymao-12/personalSite/static/media/rubik-cyrillic-400-normal.3767fff78ffcba56c6fc.woff2",
-    "static/media/rubik-hebrew-400-normal.woff": "/lucymao-12/personalSite/static/media/rubik-hebrew-400-normal.080716924a722c80f783.woff",
-    "static/media/rubik-cyrillic-ext-400-normal.woff2": "/lucymao-12/personalSite/static/media/rubik-cyrillic-ext-400-normal.6a73ffe6bf2a0db7c749.woff2",
-    "static/media/rubik-hebrew-400-normal.woff2": "/lucymao-12/personalSite/static/media/rubik-hebrew-400-normal.e6ce96d313dcffab638f.woff2",
-    "index.html": "/lucymao-12/personalSite/index.html",
-    "main.5eb4ad3b.css.map": "/lucymao-12/personalSite/static/css/main.5eb4ad3b.css.map",
-    "main.ba6150fe.js.map": "/lucymao-12/personalSite/static/js/main.ba6150fe.js.map"
+    "main.css": "/personalSite/static/css/main.560a5915.css",
+    "main.js": "/personalSite/static/js/main.5e10ec2f.js",
+    "static/media/IMG_3772.JPG": "/personalSite/static/media/IMG_3772.59f4c447ddd4e6b66c11.JPG",
+    "static/media/cya.png": "/personalSite/static/media/cya.0a7e75d7add4d63498fc.png",
+    "static/media/rubik-latin-400-normal.woff": "/personalSite/static/media/rubik-latin-400-normal.bca4b94f17366659cc98.woff",
+    "static/media/nb_metrics.png": "/personalSite/static/media/nb_metrics.4c13ce4b562fff655d4b.png",
+    "static/media/bert_metrics.png": "/personalSite/static/media/bert_metrics.05c0564b949c291ec99d.png",
+    "static/media/rubik-latin-400-normal.woff2": "/personalSite/static/media/rubik-latin-400-normal.86197d6f93b1eea220d0.woff2",
+    "static/media/rubik-latin-ext-400-normal.woff": "/personalSite/static/media/rubik-latin-ext-400-normal.63437145a08a57c69aa0.woff",
+    "static/media/rubik-cyrillic-400-normal.woff": "/personalSite/static/media/rubik-cyrillic-400-normal.7f3c6afc263bfde37ffb.woff",
+    "static/media/rubik-latin-ext-400-normal.woff2": "/personalSite/static/media/rubik-latin-ext-400-normal.1197cc14a7e4e177a737.woff2",
+    "static/media/rubik-cyrillic-ext-400-normal.woff": "/personalSite/static/media/rubik-cyrillic-ext-400-normal.dc856d8142b03a0d25b2.woff",
+    "static/media/rubik-cyrillic-400-normal.woff2": "/personalSite/static/media/rubik-cyrillic-400-normal.3767fff78ffcba56c6fc.woff2",
+    "static/media/rubik-hebrew-400-normal.woff": "/personalSite/static/media/rubik-hebrew-400-normal.080716924a722c80f783.woff",
+    "static/media/rubik-cyrillic-ext-400-normal.woff2": "/personalSite/static/media/rubik-cyrillic-ext-400-normal.6a73ffe6bf2a0db7c749.woff2",
+    "static/media/rubik-hebrew-400-normal.woff2": "/personalSite/static/media/rubik-hebrew-400-normal.e6ce96d313dcffab638f.woff2",
+    "index.html": "/personalSite/index.html",
+    "main.560a5915.css.map": "/personalSite/static/css/main.560a5915.css.map",
+    "main.5e10ec2f.js.map": "/personalSite/static/js/main.5e10ec2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.5eb4ad3b.css",
-    "static/js/main.ba6150fe.js"
+    "static/css/main.560a5915.css",
+    "static/js/main.5e10ec2f.js"
   ]
 }
