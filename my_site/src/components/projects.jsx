@@ -16,7 +16,7 @@ function Projects() {
         justifyContent: "center",
       }}
     >
-      <h1>Projects</h1>
+      <h1 style={{paddingBottom: "3rem"}}>Projects</h1>
       <p className="project-desc">
         Here are some of my projects! Most of these are from school, but I have
         also started on many personal projects as well that will hopefully fill

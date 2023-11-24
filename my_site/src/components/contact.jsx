@@ -17,7 +17,7 @@ function Contact() {
     setShowEmail(false);
   };
   return (
-    <footer className="contact-container">
+    <footer id="contact" className="contact-container">
       <h2 style={{paddingBottom: "3rem", fontWeight: "bold"}}>Contact Me!</h2>
       <Container fluid>
         <Row>
