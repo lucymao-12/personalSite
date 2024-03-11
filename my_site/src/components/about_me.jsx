@@ -10,7 +10,11 @@ function Info() {
     setIsReadMore(!isReadMore);
   };
   return (
-    <Container id="about" className="justify-content-center" style={{paddingTop: "5rem", paddingBottom: "5rem"}}>
+    <Container
+      id="about"
+      className="justify-content-center"
+      style={{ paddingTop: "5rem", paddingBottom: "5rem" }}
+    >
       <Col className="text-container">
         {isReadMore ? (
           <p className="about" style={{ textAlign: "justify" }}>
@@ -37,28 +41,11 @@ function Info() {
             Computer Sciencce at Mcgill University. I'm an only child and second
             generation immigrant to my Chinese born parents. They both study
             Software engineering so you can see how I found my interest in this
-            field Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            quis lacus nec urna accumsan feugiat. Nam pharetra tempus dui, at
-            convallis arcu tincidunt id. Sed euismod velit erat, nec suscipit
-            ligula fermentum vel. Donec auctor, sem nec maximus aliquam, nibh
-            nisl tempor ipsum, vel aliquam leo tortor non sem. Vestibulum sed
-            posuere lectus. Morbi a lectus turpis. Fusce lobortis enim eget
-            tincidunt suscipit. Cras venenatis sed augue nec iaculis. Quisque
-            fermentum est eros, sed tristique velit gravida eu. Vestibulum ante
-            ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-            curae; Suspendisse potenti. Morbi cursus diam eros, et pharetra
-            turpis eleifend ac. Quisque non lorem ac ligula laoreet pulvinar nec
-            quis leo. Nulla tempus velit sed mollis ornare. Nullam accumsan
-            mollis lacus, ut consequat nisi vulputate a. Donec porttitor varius
-            tellus eget faucibus. Sed ac tincidunt ante. Maecenas cursus enim a
-            nibh mattis porta. Cras arcu urna, cursus vel consectetur in,
-            fringilla vel purus. Aliquam sagittis vitae ante non pharetra.
-            Mauris viverra maximus orci, quis placerat nisl varius in. Fusce
-            vitae sapien vel risus pellentesque commodo. Pellentesque ornare et
-            quam vitae tincidunt. Curabitur imperdiet, felis a scelerisque
-            luctus, neque ipsum porta augue, eu commodo lectus orci sit amet
-            nunc. Vivamus non velit non orci ullamcorper tristique ac nec felis.
-            Aliquam molestie nisi id felis blandit lobortis.
+            field. I have a vested interest in the intersection of machine
+            learning and human cognition and my focus in my studies lie in how
+            through teaching computers how to learn we can understand our own
+            ability to think better. Keep scrolling to learn more about me and
+            what I've been up to!
             <br />
             <span
               onClick={toggleReadMore}
