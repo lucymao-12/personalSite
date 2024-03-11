@@ -1,6 +1,6 @@
 import React from "react";
 import { useRef } from "react";
-import { motion, useInView, useScroll } from "framer-motion";
+import { motion, useInView} from "framer-motion";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function ProjectImage({ src, alt }) {
