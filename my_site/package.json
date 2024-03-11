@@ -2,7 +2,7 @@
   "name": "my_site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/lucymao-12/personalSite",
+  "homepage": "https://lucymao-12.github.io/personalSite",
   "dependencies": {
     "@fontsource/inter": "^5.0.15",
     "@fontsource/rubik": "^5.0.17",
