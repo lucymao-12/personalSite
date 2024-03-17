@@ -159,3 +159,25 @@
     height: 100vh;
   }
 }
+
+
+@keyframes shoot-up{
+  to{
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+}
+@keyframes shoot-down{
+  to{
+    transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+
+.shoot-up{
+  animation: shoot-up 1s forwards;
+}
+.shoot-down{
+  animation: shoot-down 1s forwards;
+
+}

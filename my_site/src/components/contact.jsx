@@ -25,7 +25,7 @@ function Contact() {
             <ul>
               <h4 style={{paddingBottom: "1rem"}}>Professional Links</h4>
               <li className="no-bullet">
-                <a className="link" href="https://www.linkedin.com/in/lucy-mao-lmprofile/">
+                <a className="link" href="https://www.linkedin.com/in/lucy-mao/">
                   LinkedIn
                 </a>
               </li >
