@@ -78,7 +78,6 @@ function Projects() {
             </Row>
           </Container>
         </li>
-        <li className="project-title no-bullet">SOME STUFF HERE IDK</li>
       </ul>
     </div>
   );
