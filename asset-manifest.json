@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/personalSite/static/css/main.560a5915.css",
-    "main.js": "/personalSite/static/js/main.a26de4e2.js",
-    "static/media/IMG_3772.JPG": "/personalSite/static/media/IMG_3772.59f4c447ddd4e6b66c11.JPG",
+    "main.css": "/personalSite/static/css/main.ba121c6f.css",
+    "main.js": "/personalSite/static/js/main.c87f0597.js",
     "static/media/cya.png": "/personalSite/static/media/cya.0a7e75d7add4d63498fc.png",
     "static/media/rubik-latin-400-normal.woff": "/personalSite/static/media/rubik-latin-400-normal.bca4b94f17366659cc98.woff",
     "static/media/nb_metrics.png": "/personalSite/static/media/nb_metrics.4c13ce4b562fff655d4b.png",
@@ -17,11 +16,11 @@
     "static/media/rubik-cyrillic-ext-400-normal.woff2": "/personalSite/static/media/rubik-cyrillic-ext-400-normal.6a73ffe6bf2a0db7c749.woff2",
     "static/media/rubik-hebrew-400-normal.woff2": "/personalSite/static/media/rubik-hebrew-400-normal.e6ce96d313dcffab638f.woff2",
     "index.html": "/personalSite/index.html",
-    "main.560a5915.css.map": "/personalSite/static/css/main.560a5915.css.map",
-    "main.a26de4e2.js.map": "/personalSite/static/js/main.a26de4e2.js.map"
+    "main.ba121c6f.css.map": "/personalSite/static/css/main.ba121c6f.css.map",
+    "main.c87f0597.js.map": "/personalSite/static/js/main.c87f0597.js.map"
   },
   "entrypoints": [
-    "static/css/main.560a5915.css",
-    "static/js/main.a26de4e2.js"
+    "static/css/main.ba121c6f.css",
+    "static/js/main.c87f0597.js"
   ]
 }
