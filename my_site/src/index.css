@@ -163,13 +163,13 @@
 
 @keyframes shoot-up{
   to{
-    transform: translateY(1000px);
+    transform: translateY(100px);
     opacity: 0;
   }
 }
 @keyframes shoot-down{
   to{
-    transform: translateY(-1000px);
+    transform: translateY(-100px);
     opacity: 0;
   }
 }
