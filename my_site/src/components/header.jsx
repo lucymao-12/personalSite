@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 
 const Header = () => {
   return (
-    <header style={{ position: 'fixed', top: 0, width: '100%', zIndex: 1000 }}>
+    <header style={{ position: 'fixed', width: '100vw', top: 0, zIndex: 1000 }}>
       <Navbar bg="light" expand="xl" style={{padding: '20px'}}>
         <Navbar.Brand  className="name" style={{fontSize: "3rem"}}>Lucy Mao</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -16,24 +16,24 @@ function Projects() {
         justifyContent: "center",
       }}
     >
-      <h1 style={{ paddingBottom: "3rem" }}>Projects</h1>
-      <p className="project-desc">
+      <h1 style={{ paddingBottom: "3rem", color: "#d8e3e1"  }}>Projects</h1>
+      <p className="project-desc" style={{color: "#d8e3e1"}}>
         Here are some of my projects! Most of these are from school, but I have
         also started on many personal projects as well that will hopefully fill
         this space one day.
       </p>
       <hr></hr>
 
-      <ul
+      <div
+        className="proj-images"
         style={{
-          maxWidth: "70%",
           display: "flex",
-          flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
+          maxHeight:"100%"
         }}
       >
-        <li className="project-title no-bullet proj1">
+        <div className="project-title no-bullet proj1">
           Choose your own adventure multipage web app
           <p className="project-desc">
             This was made with node.js, express, mongodb backend. React, html,
@@ -45,38 +45,42 @@ function Projects() {
             Inspiration is from the my love of writing and I wanted to
             incorporate some of that in my projects
           </p>
-          <ProjectImage
+          <img style={{
+          paddingTop: "2rem",
+          paddingBottom: "2rem",
+          maxWidth: "100%",
+        }}
             src={cya}
             alt="choose your own adventure web app"
-          ></ProjectImage>
-        </li>
-        <li className="project-title no-bullet proj2">
+          ></img>
+        </div>
+        <div className="project-title no-bullet proj2">
           <a href="https://colab.research.google.com/drive/1RmcNu-exn3mOe2kzZppeVq2_gExZwCEJ?usp=sharing">
             DCGAN LINK, UPDATE NEEDED
           </a>
           <p className="project-desc">DCGAN DESC</p>
-          <ProjectImage
+          <ProjectImage 
             src={dcgan}
             alt="screenshot of the final pass of training on my DCGAN"
           ></ProjectImage>
-        </li>
-        <li className="project-title no-bullet proj3">
+        </div>
+        <div className="project-title no-bullet proj3">
+          <a></a>
+          <p></p>
+          <ProjectImage 
+            src={hlg}
+            alt="Screenshot from spotify higher or lower personal projects"
+          ></ProjectImage>
+        </div>
+        <div className="project-title no-bullet proj4">
           <a></a>
           <p></p>
           <ProjectImage
             src={hlg}
             alt="Screenshot from spotify higher or lower personal projects"
           ></ProjectImage>
-        </li>
-        <li className="project-title no-bullet proj4">
-          <a></a>
-          <p></p>
-          <ProjectImage
-            src={hlg}
-            alt="Screenshot from spotify higher or lower personal projects"
-          ></ProjectImage>
-        </li>
-      </ul>
+        </div>
+      </div>
     </div>
   );
 }

@@ -7,12 +7,12 @@ function ProjectImage({ src, alt }) {
   const ref = useRef();
   const isInView = useInView(ref, { once: false });
   return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: isInView ? 1 : 0 }}
-      transition={{ duration: 1 }}
-    >
+    // <motion.div
+    //   ref={ref}
+    //   initial={{ opacity: 0 }}
+    //   animate={{ opacity: isInView ? 1 : 0 }}
+    //   transition={{ duration: 1 }}
+    // >
       <img
         className="project-image"
         src={src}
@@ -24,7 +24,7 @@ function ProjectImage({ src, alt }) {
           height: "auto",
         }}
       ></img>
-    </motion.div>
+    //  </motion.div>
   );
 }
 

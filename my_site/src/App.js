@@ -11,7 +11,6 @@ function App() {
       <Header />
       <Home />
       {/* <Info /> */}
-      {/* <Projects /> */}
       <Contact />
     </>
   );

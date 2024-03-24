@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-size: 10px;
 }
+
 .name {
   font-family: "Rubik";
 }
@@ -68,11 +69,6 @@
   pointer-events: none;
 }
 
-.img-fluid {
-  width: 100%; /* Full width */
-  height: auto; /* Maintain aspect ratio */
-}
-
 /* For narrower screens, where you want to fill the height and allow width to be auto */
 @media (max-width: 768px) {
   .img-fluid {
@@ -80,6 +76,14 @@
     height: 100%; /* Full height */
     min-width: 100%; /* Ensure it spans at least the full width of its container */
     object-fit: cover; /* Cover the area, allowing the image to be cropped */
+  }
+  .proj-images{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .greet-expanded{
+    display: block;
   }
 }
 .project-title {
@@ -93,6 +97,7 @@
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  flex:1;
 }
 .project-title > a {
   font-size: 2rem;
@@ -105,18 +110,21 @@
   font-size: 1.5rem;
   font-family: "Rubik";
   font-weight: normal;
+  text-align: center;
 }
 .projects {
-  padding: 2rem;
-  background-color: #d8e3e1;
+  background-color: black;
+  margin-top: 10rem;
+  height:auto;
 }
 .contact-container {
   padding: 3rem;
   min-height: 20rem;
-  background-color: "white";
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
   /* position: fixed;
   width: 100%;
   bottom: 0; */
@@ -181,3 +189,4 @@
   animation: shoot-down 1s forwards;
 
 }
+
