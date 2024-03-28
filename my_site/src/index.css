@@ -68,9 +68,27 @@
   ); /* Adjust the 80% as needed */
   pointer-events: none;
 }
+.proj-images{
+  display: flex;
+}
 
 /* For narrower screens, where you want to fill the height and allow width to be auto */
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .img-fluid {
+    width: auto; /* Allow width to adjust */
+    height: 100%; /* Full height */
+    min-width: 100%; /* Ensure it spans at least the full width of its container */
+    object-fit: cover; /* Cover the area, allowing the image to be cropped */
+  }
+  .proj-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .greet-expanded{
+    display: block;
+  }
+}
+@media (max-width: 728px) {
   .img-fluid {
     width: auto; /* Allow width to adjust */
     height: 100%; /* Full height */
@@ -80,13 +98,13 @@
   .proj-images{
     display: flex;
     flex-direction: column;
-    
   }
   .greet-expanded{
     display: block;
   }
 }
 .project-title {
+  position: relative;
   font-size: 2rem;
   font-family: "Rubik";
   font-weight: bold;
@@ -98,6 +116,11 @@
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
   flex:1;
+  height: 40rem;
+  overflow: scroll;
+}
+.project-title::-webkit-scrollbar {
+  display: none; /* This hides the scrollbar in Webkit browsers */
 }
 .project-title > a {
   font-size: 2rem;
@@ -188,5 +211,16 @@
 .shoot-down{
   animation: shoot-down 1s forwards;
 
+}
+.down-arrow{
+  position:sticky;
+  bottom: -1rem; /* Adjust as needed */
+  left: 50%;
+  height: auto;
+  width: 40px;
+  transform: translateX(-50%);
+  font-size: 24px; /* Adjust as needed */
+  /* Styling to make it more arrow-like */
+  color: #000; /* Change as needed */
 }
 
