@@ -25,11 +25,10 @@ function Home() {
   };
 
   const handleAnimEnd = () => {
-    setMinHeight("100vh")
+    setMinHeight("100vh");
     setHeightAfterAnimation("auto");
     setShowProject(true);
     setConAn("");
-    
   };
   const headingStyle = {
     color: isHovered || isPressed ? "#d8e3e1" : "black",

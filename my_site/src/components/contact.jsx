@@ -18,27 +18,34 @@ function Contact() {
   };
   return (
     <footer id="contact" className="contact-container">
-      <h2 style={{paddingBottom: "3rem", fontWeight: "bold"}}>Contact Me!</h2>
+      <h2 style={{ paddingBottom: "3rem", fontWeight: "bold" }}>Contact Me!</h2>
       <Container fluid>
         <Row>
           <Col>
             <ul>
-              <h4 style={{paddingBottom: "1rem"}}>Professional Links</h4>
+              <h4 style={{ paddingBottom: "1rem" }}>Professional Links</h4>
               <li className="no-bullet">
-                <a className="link" href="https://www.linkedin.com/in/lucy-mao/">
+                <a
+                  className="link"
+                  href="https://www.linkedin.com/in/lucy-mao/"
+                >
                   LinkedIn
                 </a>
-              </li >
+              </li>
               <li className="no-bullet">
-                <a className="link" href="https://github.com/lucymao-12"> Github</a>
+                <a className="link" href="https://github.com/lucymao-12">
+                  {" "}
+                  Github
+                </a>
               </li>
             </ul>
           </Col>
           <Col>
             <ul>
-              <h4 style={{paddingBottom: "1rem"}}>Emails</h4>
+              <h4 style={{ paddingBottom: "1rem" }}>Emails</h4>
               <li className="no-bullet">
-                <a className="link"
+                <a
+                  className="link"
                   onMouseEnter={() => handleMouseEnter("lucymao12@gmail.com")}
                   onMouseMove={handleMouseMove}
                   onMouseLeave={handleMouseLeave}
@@ -48,7 +55,8 @@ function Contact() {
                 </a>
               </li>
               <li className="no-bullet">
-                <a className="link"
+                <a
+                  className="link"
                   onMouseEnter={() =>
                     handleMouseEnter("lucy.mao@mail.mcgill.ca")
                   }

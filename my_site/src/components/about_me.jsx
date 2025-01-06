@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Col } from "react-bootstrap";
 import { useState } from "react";
 
-function Info() {
+function About() {
   const [isReadMore, setIsReadMore] = useState(true);
 
   const toggleReadMore = () => {
@@ -13,7 +13,7 @@ function Info() {
     <Container
       id="about"
       className="justify-content-center"
-      style={{ paddingTop: "5rem", paddingBottom: "5rem" }}
+      style={{ paddingTop: "10rem", paddingBottom: "5rem", height: "80vh" }}
     >
       <Col className="text-container">
         {isReadMore ? (
@@ -65,4 +65,4 @@ function Info() {
   );
 }
 
-export default Info;
+export default About;
