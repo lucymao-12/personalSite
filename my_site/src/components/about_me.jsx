@@ -44,8 +44,8 @@ function About() {
             field. I have a vested interest in the intersection of machine
             learning and human cognition and my focus in my studies lie in how
             through teaching computers how to learn we can understand our own
-            ability to think better. Keep scrolling to learn more about me and
-            what I've been up to!
+            ability to think better. Click through my projects to see what I've
+            been up to!
             <br />
             <span
               onClick={toggleReadMore}

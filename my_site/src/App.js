@@ -9,7 +9,6 @@ import Stuff from "./components/stuff";
 function App() {
   return (
     <>
-      <Header />
       <Stuff />
       <Contact />
     </>
